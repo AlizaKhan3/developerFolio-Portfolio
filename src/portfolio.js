@@ -4,6 +4,31 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+// import { SiAxios } from "react-icons/si";
+// import { SiCss3 } from "react-icons/si";
+// import { SiJavascript } from "react-icons/si";
+// import { SiReact } from "react-icons/si";
+// import { SiMysql } from "react-icons/si";
+// import { SiHtml5 } from "react-icons/si";
+import { MdOutlineSettingsEthernet } from "react-icons/md";
+import { FaGitAlt } from "react-icons/fa";   
+import {
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiReact,
+  SiRedux,
+  SiPostman,
+  SiTailwindcss,
+  SiMui,
+  SiAntdesign,
+  SiFirebase,
+  SiMysql,
+  SiAxios,
+  SiGithub,
+  SiBootstrap
+} from "react-icons/si";
+
 
 // Splash Screen
 
@@ -46,7 +71,6 @@ const socialMediaLinks = {
 };
 
 // Skills Section
-
 const skillsSection = {
   title: "What I Do",
   subTitle: "PASSIONATE FRONTEND DEVELOPER EXPLORING MODERN WEB TECHNOLOGIES",
@@ -57,59 +81,128 @@ const skillsSection = {
     emoji("⚡ Manage projects efficiently using GitHub, Yarn, and NPM")
   ],
 
-  /* Updated software skills */
   softwareSkills: [
-    {
-      skillName: "HTML5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "React.js",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Tailwind CSS",
-      fontAwesomeClassname: "fas fa-wind"
-    },
-    {
-      skillName: "Material UI",
-      fontAwesomeClassname: "fas fa-palette"
-    },
-    {
-      skillName: "Firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "GitHub",
-      fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "Yarn",
-      fontAwesomeClassname: "fab fa-yarn"
-    },
-    {
-      skillName: "NPM",
-      fontAwesomeClassname: "fab fa-npm"
-    }
+    { skillName: "HTML5", icon: SiHtml5 },
+    { skillName: "CSS3", icon: SiCss3 },
+    { skillName: "JavaScript ES6", icon: SiJavascript },
+    { skillName: "React", icon: SiReact },
+    { skillName: "Context API", icon: MdOutlineSettingsEthernet },
+    { skillName: "Redux", icon: SiRedux },
+    { skillName: "Restful APIs (Axios)", icon: SiAxios },
+    { skillName: "Postman", icon: SiPostman },
+    { skillName: "Git", icon: FaGitAlt },
+    { skillName: "GitHub", icon: SiGithub },
+    { skillName: "Bootstrap", icon: SiBootstrap },
+    { skillName: "Tailwind", icon: SiTailwindcss },
+    { skillName: "Material UI", icon: SiMui },
+    { skillName: "Ant Design", icon: SiAntdesign },
+    { skillName: "Firebase", icon: SiFirebase },
+    { skillName: "SQL", icon: SiMysql }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
+// export { skillsSection };
+// const skillsSection = {
+//   title: "What I Do",
+//   subTitle: "PASSIONATE FRONTEND DEVELOPER EXPLORING MODERN WEB TECHNOLOGIES",
+//   skills: [
+//     emoji("⚡ Develop highly interactive and responsive user interfaces using React.js"),
+//     emoji("⚡ Create modern, pixel-perfect designs with Tailwind CSS, Material UI, and Ant Design"),
+//     emoji("⚡ Implement Firebase for authentication, database, and hosting"),
+//     emoji("⚡ Manage projects efficiently using GitHub, Yarn, and NPM")
+//   ],
+
+//   /* Updated software skills */
+//   softwareSkills: [
+//     // {
+//     //   skillName: "HTML5",
+//     //   fontAwesomeClassname: "fab fa-html5"
+//     // },
+//     // {
+//     //   skillName: "CSS3",
+//     //   fontAwesomeClassname: "fab fa-css3-alt"
+//     // },
+//     // {
+//     //   skillName: "JavaScript",
+//     //   fontAwesomeClassname: "fab fa-js"
+//     // },
+//     // {
+//     //   skillName: "React.js",
+//     //   fontAwesomeClassname: "fab fa-react"
+//     // },
+//     // {
+//     //   skillName: "Tailwind CSS",
+//     //   fontAwesomeClassname: "fas fa-wind"
+//     // },
+//     // {
+//     //   skillName: "Material UI",
+//     //   fontAwesomeClassname: "fas fa-palette"
+//     // },
+//     // {
+//     //   skillName: "Firebase",
+//     //   fontAwesomeClassname: "fas fa-fire"
+//     // },
+//     // {
+//     //   skillName: "SQL",
+//     //   fontAwesomeClassname: "fas fa-database"
+//     // },
+//     // {
+//     //   skillName: "GitHub",
+//     //   fontAwesomeClassname: "fab fa-github"
+//     // },
+//     // {
+//     //   skillName: "Yarn",
+//     //   fontAwesomeClassname: "fab fa-yarn"
+//     // },
+//     // {
+//     //   skillName: "NPM",
+//     //   fontAwesomeClassname: "fab fa-npm"
+//     // },
+//     //  {
+//     //   skillName: "Restful API",
+//     //   fontAwesomeClassname: "fab fa-restful"
+//     // },
+//     //  {
+//     //   skillName: "Context API",
+//     //   fontAwesomeClassname: "fab fa-context-api"
+//     // },
+//     //  {
+//     //   skillName: "Axios",
+//     //   fontAwesomeClassname: "fas fa-network-wired"
+//     // },
+//     softwareSkills: [
+//     {
+//       skillName: "HTML5",
+//       icon: SiHtml5,
+//     },
+//     {
+//       skillName: "CSS3",
+//       icon: SiCss3 ,
+//     },
+//     {
+//       skillName: "JavaScript",
+//       icon: SiJavascript
+//     },
+//     {
+//       skillName: "React.js",
+//       icon: SiReact
+//     },
+//     {
+//       skillName: "Axios",
+//       icon: SiAxios
+//     },
+//     // {
+//     //   skillName: "GitHub",
+//     //   icon: <FaGithub />
+//     // },
+//     {
+//       skillName: "SQL",
+//       icon: SiMysql
+//     },
+//   ],
+//   display: true // Set false to hide this section, defaults to true
+// };
 
 /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -124,13 +217,12 @@ const educationInfo = {
       logo: require("./assets/images/uokLogo.jpg"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "January 2023 - January 2027",
-      desc: "Actively participating in technical and research-based initiatives while contributing to various student communities.",
+      desc:"Ranked among the top 10 students with a CGPA of 3.63. Actively participating in technical and research-based initiatives while contributing to various student communities.",
       descBullets: [
         "📌 Participated in the Climate Action Ideathon, contributing innovative solutions for sustainability.",
         "🚀 Competed in NASA Space Apps Challenge as part of the 'Landsat Explorers' team, working on Landsat Reflectance Data.",
         "🎨 Graphics Team Member in Microsoft Learn Student Ambassadors - University of Karachi, designing visual assets for community engagement.",
         "💻 Technical Team Member in Google Developer Students Club - UoK, contributing to tech-related tasks and projects.",
-        "👩‍💻 Technical Team Member in ACM-W - Uok, working on tech-driven initiatives and supporting women in computing."
       ]
     },
 
