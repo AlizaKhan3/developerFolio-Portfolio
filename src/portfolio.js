@@ -10,8 +10,8 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // import { SiReact } from "react-icons/si";
 // import { SiMysql } from "react-icons/si";
 // import { SiHtml5 } from "react-icons/si";
-import { MdOutlineSettingsEthernet } from "react-icons/md";
-import { FaGitAlt } from "react-icons/fa";   
+import {MdOutlineSettingsEthernet} from "react-icons/md";
+import {FaGitAlt} from "react-icons/fa";
 import {
   SiHtml5,
   SiCss3,
@@ -28,7 +28,6 @@ import {
   SiGithub,
   SiBootstrap
 } from "react-icons/si";
-
 
 // Splash Screen
 
@@ -75,29 +74,33 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "PASSIONATE FRONTEND DEVELOPER EXPLORING MODERN WEB TECHNOLOGIES",
   skills: [
-    emoji("⚡ Develop highly interactive and responsive user interfaces using React.js"),
-    emoji("⚡ Create modern, pixel-perfect designs with Tailwind CSS, Material UI, and Ant Design"),
+    emoji(
+      "⚡ Develop highly interactive and responsive user interfaces using React.js"
+    ),
+    emoji(
+      "⚡ Create modern, pixel-perfect designs with Tailwind CSS, Material UI, and Ant Design"
+    ),
     emoji("⚡ Implement Firebase for authentication, database, and hosting"),
     emoji("⚡ Manage projects efficiently using GitHub, Yarn, and NPM")
   ],
 
   softwareSkills: [
-    { skillName: "HTML5", icon: SiHtml5 },
-    { skillName: "CSS3", icon: SiCss3 },
-    { skillName: "JavaScript ES6", icon: SiJavascript },
-    { skillName: "React", icon: SiReact },
-    { skillName: "Context API", icon: MdOutlineSettingsEthernet },
-    { skillName: "Redux", icon: SiRedux },
-    { skillName: "Restful APIs (Axios)", icon: SiAxios },
-    { skillName: "Postman", icon: SiPostman },
-    { skillName: "Git", icon: FaGitAlt },
-    { skillName: "GitHub", icon: SiGithub },
-    { skillName: "Bootstrap", icon: SiBootstrap },
-    { skillName: "Tailwind", icon: SiTailwindcss },
-    { skillName: "Material UI", icon: SiMui },
-    { skillName: "Ant Design", icon: SiAntdesign },
-    { skillName: "Firebase", icon: SiFirebase },
-    { skillName: "SQL", icon: SiMysql }
+    {skillName: "HTML5", icon: SiHtml5},
+    {skillName: "CSS3", icon: SiCss3},
+    {skillName: "JavaScript ES6", icon: SiJavascript},
+    {skillName: "React", icon: SiReact},
+    {skillName: "Context API", icon: MdOutlineSettingsEthernet},
+    {skillName: "Redux", icon: SiRedux},
+    {skillName: "Restful APIs (Axios)", icon: SiAxios},
+    {skillName: "Postman", icon: SiPostman},
+    {skillName: "Git", icon: FaGitAlt},
+    {skillName: "GitHub", icon: SiGithub},
+    {skillName: "Bootstrap", icon: SiBootstrap},
+    {skillName: "Tailwind", icon: SiTailwindcss},
+    {skillName: "Material UI", icon: SiMui},
+    {skillName: "Ant Design", icon: SiAntdesign},
+    {skillName: "Firebase", icon: SiFirebase},
+    {skillName: "SQL", icon: SiMysql}
   ],
   display: true
 };
@@ -217,12 +220,12 @@ const educationInfo = {
       logo: require("./assets/images/uokLogo.jpg"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "January 2023 - January 2027",
-      desc:"Ranked among the top 10 students with a CGPA of 3.63. Actively participating in technical and research-based initiatives while contributing to various student communities.",
+      desc: "Ranked among the top 10 students with a CGPA of 3.63. Actively participating in technical and research-based initiatives while contributing to various student communities.",
       descBullets: [
         "📌 Participated in the Climate Action Ideathon, contributing innovative solutions for sustainability.",
         "🚀 Competed in NASA Space Apps Challenge as part of the 'Landsat Explorers' team, working on Landsat Reflectance Data.",
         "🎨 Graphics Team Member in Microsoft Learn Student Ambassadors - University of Karachi, designing visual assets for community engagement.",
-        "💻 Technical Team Member in Google Developer Students Club - UoK, contributing to tech-related tasks and projects.",
+        "💻 Technical Team Member in Google Developer Students Club - UoK, contributing to tech-related tasks and projects."
       ]
     },
 
@@ -231,7 +234,7 @@ const educationInfo = {
       logo: require("./assets/images/collegeLogo.jpeg"),
       subHeader: "Intermediate (Pre-Engineering)",
       duration: "August 2020 - July 2022",
-      desc: "Achieved an A+ grade with 84.73%, focused on core subjects including Mathematics, Physics, and Chemistry.",
+      desc: "Achieved an A+ grade with 84.73%, focused on core subjects including Mathematics, Physics, and Chemistry."
     }
   ]
 };
@@ -290,12 +293,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SHOWCASING INNOVATIVE PROJECTS THAT REFLECT MY EXPERTISE IN WEB DEVELOPMENT & PROBLEM-SOLVING",
+  subtitle:
+    "SHOWCASING INNOVATIVE PROJECTS THAT REFLECT MY EXPERTISE IN WEB DEVELOPMENT & PROBLEM-SOLVING",
   projects: [
     {
       image: require("./assets/images/skyShareLogo.png"),
       projectName: "SkyShare",
-      projectDesc: "SkyShare is a ReactJS web app for easy text and file sharing across devices, inspired by AirForShare. Users can save text or upload files and access them from any device.",
+      projectDesc:
+        "SkyShare is a ReactJS web app for easy text and file sharing across devices, inspired by AirForShare. Users can save text or upload files and access them from any device.",
       footerLink: [
         {
           name: "Visit Website",
@@ -311,7 +316,8 @@ const bigProjects = {
     {
       image: require("./assets/images/oniFoodLogo.png"),
       projectName: "OniFood",
-      projectDesc: "OniFood is a responsive online food delivery platform where users can browse restaurants, order food, and track deliveries. It includes an interactive UI, a dynamic admin dashboard for managing restaurants and orders, and real-time data storage with Firebase Firestore",
+      projectDesc:
+        "OniFood is a responsive online food delivery platform where users can browse restaurants, order food, and track deliveries. It includes an interactive UI, a dynamic admin dashboard for managing restaurants and orders, and real-time data storage with Firebase Firestore",
       footerLink: [
         {
           name: "Visit Website",
@@ -332,13 +338,13 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Certifications I'm currently enrolled in",
+  subtitle: "Certifications I'm currently enrolled in",
 
   achievementsCards: [
     {
       title: "Web and Mobile App Developer/ Mern Stack Developer",
-      subtitle: "Enrolled in the Web & Mobile App Development Course at Jawan Pakistan",
+      subtitle:
+        "Enrolled in the Web & Mobile App Development Course at Jawan Pakistan",
       image: require("./assets/images/jawanPakistanLogo.jpeg"),
       imageAlt: "Certificate",
       footerLink: [
@@ -350,7 +356,8 @@ const achievementSection = {
     },
     {
       title: "NASA Space Apps Challenge 2024",
-      subtitle: "Participated in the NASA Space Apps Challenge 2024 as part of the 'Landsat Explorers' team, developing the project 'Landsat Reflectance Data: On the Fly and at Your Fingertips.'",
+      subtitle:
+        "Participated in the NASA Space Apps Challenge 2024 as part of the 'Landsat Explorers' team, developing the project 'Landsat Reflectance Data: On the Fly and at Your Fingertips.'",
       image: require("./assets/images/nasa-logo.png"),
       imageAlt: "Participation Certificate",
       footerLink: [
@@ -358,8 +365,7 @@ const achievementSection = {
           name: "Certificate",
           url: require("./assets/images/NASAcertificate.jpeg")
         }
-      ],
-
+      ]
     },
 
     {
@@ -368,8 +374,10 @@ const achievementSection = {
       image: require("./assets/images/datacampLogo.png"),
       imageAlt: "Datacamp",
       footerLink: [
-        { name: "Certification",
-          url: "https://www.linkedin.com/posts/aliza-khan3_sql-datacamp-backenddevelopment-activity-7290964543193677824-Lo66?utm_source=share&utm_medium=member_desktop" },
+        {
+          name: "Certification",
+          url: "https://www.linkedin.com/posts/aliza-khan3_sql-datacamp-backenddevelopment-activity-7290964543193677824-Lo66?utm_source=share&utm_medium=member_desktop"
+        }
         // {
         //   name: "Final Project",
         //   url: "https://pakistan-olx-1.firebaseapp.com/"
