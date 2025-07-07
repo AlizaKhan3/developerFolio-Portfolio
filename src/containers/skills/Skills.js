@@ -83,9 +83,9 @@ export default function Skills() {
 
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
-      <div className="skills-main-div">
-        <Fade left duration={1000}>
-          <div className="skills-image-div">
+      {/* <div className="skills-main-div"> */}
+        {/* <Fade left duration={1000}> */}
+          {/* <div className="skills-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
             ) : (
@@ -94,10 +94,10 @@ export default function Skills() {
                 src={require("../../assets/images/developerActivity.svg")}
               />
             )}
-          </div>
-        </Fade>
+          </div> */}
+        {/* </Fade> */}
 
-        <Fade right duration={1000}>
+        <Fade  duration={1000}>
           <div className="skills-text-div">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
@@ -143,7 +143,7 @@ export default function Skills() {
                       {React.createElement(skill.icon)}
                     </div>
                   )}
-                  <p>{skill.skillName}</p>
+                  {/* <p>{skill.skillName}</p> */}
                 </div>
               ))}
             </div>
@@ -166,6 +166,6 @@ export default function Skills() {
           </div>
         </Fade>
       </div>
-    </div>
+    // </div>
   );
 }
