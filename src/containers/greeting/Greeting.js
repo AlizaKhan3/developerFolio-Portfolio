@@ -9,6 +9,7 @@ import Button from "../../components/button/Button";
 import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 // import "../../../public/"
+import Aliza_Resume from "../../assets/MernStackDeveloper_AlizaKhan.pdf"
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -42,15 +43,9 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  // <a
-                  //   href={require("./Resume.pdf")}
-                  //   download="Resume.pdf"
-                  //   className="download-link-button"
-                  // >
-                  //   <Button text="Download my resume" />
-                  // </a>
                   <a
-                    href={require("./MernStackDeveloper_AlizaKhan.pdf")}
+                  href={Aliza_Resume}
+                    // href={require("./MernStackDeveloper_AlizaKhan.pdf")}
                     download="AlizaKhan-MernStackDeveloper.pdf"
                     className="download-link-button"
                   >
