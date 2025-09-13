@@ -8,8 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
-// import "../../../public/"
-import Aliza_Resume from "../../assets/MernStackDeveloper_AlizaKhan.pdf"
+
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -44,8 +43,6 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                     <a
                   href="https://drive.google.com/file/d/1PrH02ocmFh6KFglC4BrpcfzsI9uWN9VA/view?usp=sharing"
-                    // download="AlizaKhan-MernStackDeveloper.pdf"
-                    // target="_blank"
                     className="download-link-button"
                   >
                   Download Resume
